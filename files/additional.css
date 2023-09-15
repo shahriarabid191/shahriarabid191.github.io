@@ -4,8 +4,12 @@
 
 
 /* Header */
-header td {
+#name{
   white-space: nowrap;
+}
+
+#name:hover{
+  color: red;
 }
 
 
@@ -42,7 +46,8 @@ a {
 }
 
 a:hover {
-  color: red;
+  border: none;
+  background-color: red;
 }
 
 
@@ -76,11 +81,6 @@ div {
   padding: 5px 10px;
   border: 1px solid green;
   margin: 5px;
-}
-
-.button:hover {
-  color: white;
-  background-color: red;
 }
 
 
