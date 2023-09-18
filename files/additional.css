@@ -9,7 +9,7 @@
 }
 
 #name:hover{
-  color: red;
+  color: #E31E24;
 }
 
 
@@ -42,12 +42,12 @@ body {
 a {
   color: black;
   text-decoration: none;
-  border-bottom: 2.5px solid green;
+  border-bottom: 2.5px solid #006747;
 }
 
 a:hover {
   border: none;
-  background-color: red;
+  background-color: #E31E24;
 }
 
 
@@ -79,7 +79,7 @@ div {
 .button {
   display: inline-block;
   padding: 5px 10px;
-  border: 1px solid green;
+  border: 1px solid #006747;
   margin: 5px;
 }
 
