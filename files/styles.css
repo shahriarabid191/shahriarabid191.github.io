@@ -10928,6 +10928,13 @@ p.lead {
   gap: 10px;
 }
 
+.social-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
 .social-icons .social-icon {
   display: flex;
   align-items: center;
@@ -10938,6 +10945,7 @@ p.lead {
   color: #fff;
   border-radius: 100%;
   font-size: 1.5rem;
+  flex-shrink: 0;
 }
 
 .social-icons .social-icon:hover {
@@ -10947,6 +10955,7 @@ p.lead {
 .dev-icons {
   font-size: 3rem;
 }
+
 
 
 section.resume-section {
