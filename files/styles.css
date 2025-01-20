@@ -10924,13 +10924,6 @@ p.lead {
 .social-icons {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  gap: 10px;
-}
-
-.social-icons {
-  display: flex;
-  flex-wrap: wrap;
   justify-content: flex-start;
   gap: 10px;
 }
