@@ -10921,8 +10921,15 @@ p.lead {
     display: block;
   }
 }
+.social-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
 .social-icons .social-icon {
-  display: inline-flex;
+  display: flex;
   align-items: center;
   justify-content: center;
   height: 3.5rem;
@@ -10931,11 +10938,8 @@ p.lead {
   color: #fff;
   border-radius: 100%;
   font-size: 1.5rem;
-  margin-right: 1.5rem;
 }
-.social-icons .social-icon:last-child {
-  margin-right: 0;
-}
+
 .social-icons .social-icon:hover {
   background-color: #E31E24;
 }
@@ -10943,6 +10947,7 @@ p.lead {
 .dev-icons {
   font-size: 3rem;
 }
+
 
 section.resume-section {
   display: flex;
