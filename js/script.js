@@ -51,7 +51,7 @@ async function loadNavBar() {
         const indicator = document.querySelector("#nav-indicator");
         const navItemLst = document.querySelectorAll(".nav-item");
 
-        const currentPg = path.split("/").pop().replace(".html", "") || "index.html";
+        const currentPg = path.split("/").pop().replace(".html", "") || "index";
         let actvLink = null;
 
         function positionIndicator(show = false) {
