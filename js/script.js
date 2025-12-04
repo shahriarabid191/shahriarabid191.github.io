@@ -106,9 +106,10 @@ if (logo) {
     logo.addEventListener("click", function (e) {
         e.preventDefault();
         if (lang === "en") {
-            window.location.href = "../en/index.html";
-        } else {
-            window.location.href = "../bn/index.html";
+            window.location.href = "/index.html";
+        } 
+        else {
+            window.location.href = "/bn/index.html";
         }
     });
 }
@@ -117,13 +118,21 @@ if (logo) {
 // toggling lang
 const toggleBtn = document.getElementById("toggleBNG");
 if (toggleBtn) {
+    const thisPg = path.split("/").pop().replace(".html", "");
     toggleBtn.addEventListener("click", function (e) {
         e.preventDefault();
-        if (lang === "en") {
-            window.location.href = path.replace("/en/", "/bn/");
-        } else {
-            window.location.href = path.replace("/bn/", "/en/");
+        if (thisPg === "index") {
+            if (lang === "en") 
+                window.location.href = "/bn/index.html";
+            else
+                window.location.href = "/index.html";
         }
+        else {
+            if (lang === "en") 
+                window.location.href = path.replace("/en/", "/bn/");
+            else
+                window.location.href = path.replace("/bn/", "/en/");
+        } 
     });
 }
 
