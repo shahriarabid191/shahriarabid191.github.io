@@ -18,9 +18,10 @@ body {
 
 @font-face {
   font-family: "SolaimanLipi";
-  src: url("../fonts/SolaimanLipi.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
+  src:
+    url("/fonts/SolaimanLipi.woff2") format("woff2"),
+    url("/fonts/SolaimanLipi.woff") format("woff");
+  font-display: swap;
 }
 
 body.en {
