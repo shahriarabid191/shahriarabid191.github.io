@@ -37,9 +37,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // loading the navbar
 async function loadNavBar() {
-    let navbarFile = "../docs/en/navbar.html";
+    let navbarFile = "/en/navbar.html";
     if (lang === "bn") 
-        navbarFile = "../docs/bn/navbar.html";
+        navbarFile = "/bn/navbar.html";
 
     try {
         const res = await fetch(navbarFile);
