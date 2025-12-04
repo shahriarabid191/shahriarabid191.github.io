@@ -118,7 +118,7 @@ if (logo) {
 // toggling lang
 const toggleBtn = document.getElementById("toggleBNG");
 if (toggleBtn) {
-    const thisPg = path.split("/").pop().replace(".html", "");
+    const thisPg = path.split("/").pop().replace(".html", "") || "index";
     toggleBtn.addEventListener("click", function (e) {
         e.preventDefault();
         if (thisPg === "index") {
