@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- root -->
+  <url>
+    <loc>https://shahriarabid191.github.io/</loc>
+  </url>
+
+  <!-- en -->
+  <url>
+    <loc>https://shahriarabid191.github.io/en/academics.html</loc>
+  </url>
+  <url>
+    <loc>https://shahriarabid191.github.io/en/anonMsg.html</loc>
+  </url>
+  <url>
+    <loc>https://shahriarabid191.github.io/en/connect.html</loc>
+  </url>
+  <url>
+    <loc>https://shahriarabid191.github.io/en/experience.html</loc>
+  </url>
+  <url>
+    <loc>https://shahriarabid191.github.io/en/introduction.html</loc>
+  </url>
+
+  <!-- bn -->
+  <url>
+    <loc>https://shahriarabid191.github.io/bn/</loc>
+  </url>
+  <url>
+    <loc>https://shahriarabid191.github.io/bn/academics.html</loc>
+  </url>
+  <url>
+    <loc>https://shahriarabid191.github.io/bn/anonMsg.html</loc>
+  </url>
+  <url>
+    <loc>https://shahriarabid191.github.io/bn/connect.html</loc>
+  </url>
+  <url>
+    <loc>https://shahriarabid191.github.io/bn/experience.html</loc>
+  </url>
+  <url>
+    <loc>https://shahriarabid191.github.io/bn/introduction.html</loc>
+  </url>
+
+</urlset>
